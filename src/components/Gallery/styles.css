@@ -1,0 +1,8 @@
+.Gallery{
+    display: flex;
+    margin: 20px;
+    flex-direction: row;
+    justify-content: space-start;
+    flex-wrap: wrap;
+    width: 80%;
+}

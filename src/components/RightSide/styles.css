@@ -1,0 +1,11 @@
+
+.RightSide{
+    margin-top: 20px;
+}
+button{
+    background-color: #60a9b6;
+    color: white;
+    font-weight: bold;
+    box-shadow: #6e7075 3px 3px 0 0;
+    margin-right: 2px;
+}

@@ -1,0 +1,51 @@
+.App {
+  text-align: left;
+}
+.MovieForm{
+    display: flex;
+    position: fixed;
+    right: 10px;
+    top: 94px;
+    border: 4px solid #5f71d6;
+    
+    margin: 20px 10px 0 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 18%;
+    height: 495px;
+}
+.App-header {
+  background-color: #60a9b6;
+  border-bottom: 4px solid #5f71d6;
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Navigation{
+  display: flex;
+  list-style: none;
+  margin-left: 200px;
+}
+
+.Navigation__item {
+    margin-left: 20px;
+    font-size: 20px;
+}
+.Navigation__link{
+    text-decoration: none;
+    color: white;
+}
+.App-intro {
+  font-size: large;
+}
+.MainSection{
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+}

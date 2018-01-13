@@ -1,0 +1,24 @@
+.WatchList-elem{
+    margin: 5px;
+    background-color: #cae4ed;
+    border: 2px solid #5f71d6;
+    display: flex;
+    flex-direction: row;
+    height: 140px;
+}
+.watch_list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 98%;
+}
+.WatchList__poster{
+    width: 50%;
+    height: 140px;
+}
+.watch_text{
+    margin: 2px;
+}
+.watch_title{
+    margin: 5px 0 0 0;
+}

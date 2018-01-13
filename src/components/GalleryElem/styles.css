@@ -1,0 +1,61 @@
+.Gallery-elem{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 16%;
+    border: 4px solid #5f71d6;
+    margin: 0px 10px 10px 0px;
+    padding: 10px 10px 5px 10px;
+}
+
+.Gallery-elem__pic{
+    width: 112%;
+    height: 285px;
+    margin-top: -10px;
+}
+.Gallery-elem__title{
+    margin: 0;
+}
+.Gallery-elem__discribe{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.Gallery-elem__ditail{
+    background-color: #60a9b6;
+    padding: 3px;
+    margin: -15px 0px 10px 10px;
+    box-shadow: rgb(72, 72, 74) 3px 3px 0 0;
+    vertical-align: middle;
+    color: white;
+}
+.position{
+    position: absolute;
+    top: 10px;
+    left: -15px;
+    width: 20px;
+    text-align: center;
+}
+.genre{
+    margin: -5px 0px 10px 0px;
+}
+.Gallery-elem__text{
+    text-align: justify;
+}
+.Gallery-elem__btn{
+    width: 30px;
+    align-self: flex-end;
+    padding: 3px;
+    text-align: center;
+    background-color: #60a9b6;
+    box-shadow: #6e7075 3px 3px 0 0;
+    border-radius: 10%;
+
+}
+.Gallery-elem__delete{
+    text-decoration: none;
+    color: white;
+
+}

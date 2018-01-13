@@ -1,0 +1,11 @@
+.watch__name{
+    color: #5f71d6;
+    font-size: 28px;
+}
+.watch{
+    text-align: center;
+    overflow-y: auto;
+    position: relative;
+    min-height: 300px;
+    max-height: 320px;
+}
